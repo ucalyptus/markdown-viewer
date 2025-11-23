@@ -240,11 +240,11 @@ When this option is enabled the extension will check if the `content-type` heade
 
 When this option is enabled the extension will check if the page URL matches the Path Matching RegExp.
 
-The default regular expression is: `\.(?:markdown|mdown|mkdn|md|mkd|mdwn|mdtxt|mdtext|text)(?:#.*|\?.*)?$`
+The default regular expression is: `\.(?:markdown|mdown|mkdn|md|mkd|mdwn|mdtxt|mdtext|text|txt)(?:#.*|\?.*)?$`
 
 It is a simple regular expression that matches URLs ending with:
 
-- markdown file extension: `\.(?:markdown|mdown|mkdn|md|mkd|mdwn|mdtxt|mdtext|text)`
+- markdown file extension: `\.(?:markdown|mdown|mkdn|md|mkd|mdwn|mdtxt|mdtext|text|txt)`
 - and optionally a hash or a querystring after that: `(?:#.*|\?.*)?`
 
 > The `?:` used in `(?:match)` stands for *non-capturing group* and it is there for performance reasons.
